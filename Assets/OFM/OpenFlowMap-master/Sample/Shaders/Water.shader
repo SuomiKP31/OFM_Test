@@ -348,7 +348,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -1035,7 +1035,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -1389,7 +1389,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -1802,7 +1802,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -2211,7 +2211,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -2697,7 +2697,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -3225,7 +3225,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
@@ -3546,7 +3546,7 @@ Shader "Water"
 
 			sampler2D _WaterNormalMap;
 			sampler2D _FlowMap;
-			uniform float4 _CameraDepthTexture_TexelSize;
+			// uniform float4 _CameraDepthTexture_TexelSize;
 
 
 			//#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Varyings.hlsl"
