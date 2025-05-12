@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 192aea116d6efa7438eeba8c6d73ff73, type: 3}
   m_Name: RealisticFlow
   m_EditorClassIdentifier: 
-  m_angle: 180
-  m_strength: 1
-  m_radius: 0.15
+  m_angle: 61
+  m_strength: 2
+  m_radius: 0.1
   m_iterationCount: 128
   m_deltaT: 0.8
-  m_viscosity: 0.0001
+  m_viscosity: 0.000307

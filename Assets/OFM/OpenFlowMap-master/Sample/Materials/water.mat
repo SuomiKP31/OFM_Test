@@ -127,19 +127,19 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistortionStrenght: 0.026086958
+    - _DistortionStrenght: 0.0291
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FlowSpeed: 1
-    - _FlowStrenght: 1
+    - _FlowSpeed: 0.384
+    - _FlowStrenght: 0.734
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Height: 0.335
     - _Metallic: 0
     - _Normal2Strenght: 0.2
-    - _NormalStrenght: 0.15
+    - _NormalStrenght: 0.365
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -155,8 +155,8 @@ Material:
     - _TessMax: 10
     - _TessMin: 1
     - _TessValue: 32
-    - _TileScale: 5
-    - _TileScale2: 1.76
+    - _TileScale: 5.73
+    - _TileScale2: 1.75
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
