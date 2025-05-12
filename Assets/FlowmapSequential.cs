@@ -1,17 +1,39 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class FlowmapSequential : MonoBehaviour
 {
-    [SerializeField] private Texture VtuFlowmaps;
+    [SerializeField] private List<Texture> VtuFlowmaps;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private RenderTexture Rt;
+
+    private int _curCounter;
+    private Texture _curTexture;
+    IEnumerator SwapFlowmapPer(float timeInterval)
     {
+        while (_curCounter < VtuFlowmaps.Count)
+        {
+            _curTexture = VtuFlowmaps[_curCounter];
+            _curCounter++;
+            var meshRenderer = GetComponent<MeshRenderer>();
+            if (meshRenderer != null && meshRenderer.sharedMaterial.GetTexture("_FlowMap") != Rt)
+            {
+                meshRenderer.sharedMaterial.SetTexture("_FlowMap", Rt);
+            }
+            Graphics.Blit(_curTexture, Rt);
+            
+            Debug.Log($"Texture swapped to {_curTexture.name}");
+            yield return new WaitForSeconds(timeInterval);
+        }
         
+        yield return null;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
         
+        StartCoroutine(SwapFlowmapPer(0.02f));
     }
 }
