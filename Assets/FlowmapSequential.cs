@@ -34,6 +34,6 @@ public class FlowmapSequential : MonoBehaviour
     private void Start()
     {
         
-        StartCoroutine(SwapFlowmapPer(0.02f));
+        StartCoroutine(SwapFlowmapPer(0.04f));
     }
 }
